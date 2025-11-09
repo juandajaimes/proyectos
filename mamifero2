@@ -1,0 +1,13 @@
+public class Mamifero extends Animal {
+    protected String puedeNadar;
+    protected String tipoDePelaje;
+
+    public void cuidarCrias() {
+        System.out.println("El mamífero cuida de sus crías.");
+    }
+
+    @Override
+    public void generarSonido() {
+        System.out.println("El mamífero emite un sonido característico.");
+    }
+}
