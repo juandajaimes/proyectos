@@ -1,0 +1,29 @@
+public class Estudiante extends Usuario {
+    private String horario_clases;
+    private String grupo;
+
+    public void subir_trabajos() {
+        System.out.println(getNombre() + " está subiendo trabajos.");
+    }
+
+    public void actualizar_informacion() {
+        System.out.println(getNombre() + " está actualizando su información.");
+    }
+
+    // Getters y setters
+    public String getHorario_clases() {
+        return horario_clases;
+    }
+
+    public void setHorario_clases(String horario_clases) {
+        this.horario_clases = horario_clases;
+    }
+
+    public String getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(String grupo) {
+        this.grupo = grupo;
+    }
+}
