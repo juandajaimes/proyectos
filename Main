@@ -1,0 +1,41 @@
+public class Main {
+    public static void main(String[] args) {
+        // Crear un Admin y usar algunos métodos
+        Admin admin = new Admin();
+        admin.setNombre("Laura");
+        admin.setHorario_trabajo("Lunes a Viernes, 8am - 4pm");
+
+        System.out.println("=== ADMIN ===");
+        System.out.println("Nombre: " + admin.getNombre());
+        System.out.println("Horario de trabajo: " + admin.getHorario_trabajo());
+        admin.logearse();
+        admin.crear_nota();
+        admin.ver_lista_usuarios();
+
+        // Crear un Profesor
+        Profesor profesor = new Profesor();
+        profesor.setNombre("Carlos");
+        profesor.setMateria_asignada("Matemáticas");
+        profesor.setHorario_clases("Lunes y Miércoles, 10am - 12pm");
+
+        System.out.println("\n=== PROFESOR ===");
+        System.out.println("Nombre: " + profesor.getNombre());
+        System.out.println("Materia asignada: " + profesor.getMateria_asignada());
+        profesor.logearse();
+        profesor.crear_notas();
+        profesor.administrar_notas();
+
+        // Crear un Estudiante
+        Estudiante estudiante = new Estudiante();
+        estudiante.setNombre("Ana");
+        estudiante.setGrupo("A");
+        estudiante.setHorario_clases("Lunes a Viernes, 8am - 2pm");
+
+        System.out.println("\n=== ESTUDIANTE ===");
+        System.out.println("Nombre: " + estudiante.getNombre());
+        System.out.println("Grupo: " + estudiante.getGrupo());
+        estudiante.logearse();
+        estudiante.subir_trabajos();
+        estudiante.actualizar_informacion();
+    }
+}
