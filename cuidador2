@@ -1,0 +1,22 @@
+public class Cuidador {
+    private String nombre;
+    private String idEmpleado;
+    private String añosExperiencia;
+
+    public void alimentar(Animal animal) {
+        System.out.println(nombre + " alimenta al " + animal.especie);
+        animal.comer();
+    }
+
+    public void limpiar() {
+        System.out.println(nombre + " está limpiando el hábitat del animal.");
+    }
+
+    public void darMedicamento(Animal animal) {
+        System.out.println(nombre + " da medicamento al " + animal.especie);
+    }
+
+    public void observar(Animal animal) {
+        System.out.println(nombre + " observa el comportamiento del " + animal.especie);
+    }
+}
