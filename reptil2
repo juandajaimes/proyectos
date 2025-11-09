@@ -1,0 +1,18 @@
+public class Reptil extends Animal {
+    protected String tipoDePiel;
+    protected String temperaturaCorporal;
+    protected String venoso;
+
+    public void regularTemperatura() {
+        System.out.println("El reptil regula su temperatura corporal.");
+    }
+
+    public void desplazarse() {
+        System.out.println("El reptil se desplaza arrastrándose o caminando.");
+    }
+
+    @Override
+    public void generarSonido() {
+        System.out.println("El reptil hace un siseo o sonido bajo.");
+    }
+}
