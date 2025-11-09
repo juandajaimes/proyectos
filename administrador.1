@@ -1,0 +1,40 @@
+public class Admin extends Usuario {
+    private String horario_trabajo;
+
+    public void modificar_nota() {
+        System.out.println(getNombre() + " está modificando una nota.");
+    }
+
+    public void eliminar_nota() {
+        System.out.println(getNombre() + " está eliminando una nota.");
+    }
+
+    public void asignar_permisos() {
+        System.out.println(getNombre() + " está asignando permisos.");
+    }
+
+    public void agregar_usuarios() {
+        System.out.println(getNombre() + " está agregando usuarios.");
+    }
+
+    public void eliminar_usuario() {
+        System.out.println(getNombre() + " está eliminando un usuario.");
+    }
+
+    public void crear_nota() {
+        System.out.println(getNombre() + " está creando una nota.");
+    }
+
+    public void ver_lista_usuarios() {
+        System.out.println(getNombre() + " está viendo la lista de usuarios.");
+    }
+
+    // Getter y Setter
+    public String getHorario_trabajo() {
+        return horario_trabajo;
+    }
+
+    public void setHorario_trabajo(String horario_trabajo) {
+        this.horario_trabajo = horario_trabajo;
+    }
+}
