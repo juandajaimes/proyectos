@@ -1,0 +1,37 @@
+public class Profesor extends Usuario {
+    private String materia_asignada;
+    private String horario_clases;
+
+    public void editar_notas() {
+        System.out.println(getNombre() + " está editando notas.");
+    }
+
+    public void administrar_notas() {
+        System.out.println(getNombre() + " está administrando notas.");
+    }
+
+    public void crear_notas() {
+        System.out.println(getNombre() + " está creando notas.");
+    }
+
+    public void borrar_notas() {
+        System.out.println(getNombre() + " está borrando notas.");
+    }
+
+    // Getters y setters
+    public String getMateria_asignada() {
+        return materia_asignada;
+    }
+
+    public void setMateria_asignada(String materia_asignada) {
+        this.materia_asignada = materia_asignada;
+    }
+
+    public String getHorario_clases() {
+        return horario_clases;
+    }
+
+    public void setHorario_clases(String horario_clases) {
+        this.horario_clases = horario_clases;
+    }
+}
