@@ -1,0 +1,38 @@
+public class Usuario {
+    private String nombre;
+    private int id;
+    private String password;
+
+    public void leerNota() {
+        System.out.println(nombre + " está leyendo una nota.");
+    }
+
+    public void logearse() {
+        System.out.println(nombre + " ha iniciado sesión.");
+    }
+
+    // Getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
