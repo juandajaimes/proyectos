@@ -1,0 +1,15 @@
+public class Anaconda extends Reptil {
+
+    public void deslizarse() {
+        System.out.println("La anaconda se desliza silenciosamente por el suelo.");
+    }
+
+    public void asfixiar() {
+        System.out.println("La anaconda asfixia a su presa antes de devorarla.");
+    }
+
+    @Override
+    public void desplazarse() {
+        System.out.println("La anaconda se mueve ondulando su cuerpo.");
+    }
+}
