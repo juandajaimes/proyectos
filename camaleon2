@@ -1,0 +1,12 @@
+public class Camaleon extends Reptil {
+    private String camuflaje;
+
+    public void cambiarColor() {
+        System.out.println("El camaleón cambia de color para camuflarse.");
+    }
+
+    @Override
+    public void desplazarse() {
+        System.out.println("El camaleón se mueve lentamente entre las ramas.");
+    }
+}
