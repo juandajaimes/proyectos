@@ -1,0 +1,15 @@
+public class Delfin extends Mamifero {
+
+    public void nadar() {
+        System.out.println("El delfín nada rápidamente en el agua.");
+    }
+
+    public void saltar() {
+        System.out.println("El delfín salta fuera del agua.");
+    }
+
+    @Override
+    public void generarSonido() {
+        System.out.println("El delfín emite chasquidos y silbidos.");
+    }
+}
