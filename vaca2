@@ -1,0 +1,12 @@
+public class Vaca extends Mamifero {
+    private String raza;
+
+    public void darLeche() {
+        System.out.println("La vaca está dando leche.");
+    }
+
+    @Override
+    public void generarSonido() {
+        System.out.println("La vaca hace 'Muuu'.");
+    }
+}
